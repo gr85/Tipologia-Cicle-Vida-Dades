@@ -44,7 +44,3 @@ df = pd.DataFrame(data, columns=['Date', 'Time', 'Division', 'Position', 'Team',
 filename = date_time + '_NBA.csv'
 df.to_csv(path_or_buf='D:\\_UOC\\Master Data Science\\3_Tipologia cicle vida dades\\PACS\\PRA1\\'+filename,
           sep=';', index=False)
-
-#df.head()
-
-print(datetime.datetime.now().strftime('%Y%m%d_%H%M%S'))
