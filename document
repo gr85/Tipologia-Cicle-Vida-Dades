@@ -1,0 +1,56 @@
+Coses per entregar:
+
+a) Document (txt/pdf/docx) que contingui un enllaç al repositori GIT i l'enllaç al video del projecte.
+b) Repositori GIT
+	b.1) README.md on estiguin els noms dels components del grup, una descripció dels fitxers i el DOI de Zenodo del dataset generat.
+	b.2) Un document PDF amb les respostes als apartats 1-10 i els noms dels components del grup. MAX 20 pàgines. Taula de contribucions.
+	b.3) Carpeta amb el codi Pyhton del projecte.
+c) Video amb la participació dels dos components del grup, on es realitzarà una presentació del projecte, destacant els punts més rellevants. MAX 10 minuts.
+
+
+
+Preguntes:
+
+1.- El nostre projecte de web scrapping recull la informació de la taula de classificació de la NBA. Coincidint l'inici de la pràctica amb l'inici de la NBA vam trobar molt interessant aquesta informació per fer-la servir en la pràctica ja que en les primeres jornades és un constant puja baixa dels equips en la classificació per no haver jugat un gran número de partits i això ens permetria veure canvis en la informació extreta. La web triada ha sigut https://resultados.as.com/resultados/baloncesto/nba/clasificacion/ . Es troba dins de la secció de la NBA de la pàgina del diari esportiu AS. 
+
+(NO SE SI AIXO ES FICA AQUI -> Analisi?????, perque aquesta pagina i no la oficial de la NBA????????)
+
+2.- NBA_classification
+
+3.- (BASICAMENT ES LO MATEIX QUE EXPLICO EN LA PREGUNTA 1 I 5 ??????????????)
+
+4.- (FER UN ESQUEMA/ DIAGRAMA, HO PARLEM! -> Dibuixar un esquema o diagrama que identifiqui el dataset visualment i el projecte escollit)
+
+5.- Bàsicament el dataset és una extracció de la taula de la classificació de la NBA com la que podem trobar a la web en la que recollim la informació. Trobem els següents camps: Division, Position, Team, GamesPlayed, Won, Lost, PointsAgainst, PointsForth, DiffPoints. A més a més hem afegit les columnes Date i Time per saber en quin moment es va fer l'extracció de la informació que tenim i poder fer un anàlisi amb les demes extraccions fetes en altres moments. En la següent taula es descriu amb més detall cada camp:
+
+Name				Type			Description
+
+Date 				date 			Data del moment en que s'ha fet l'extracció
+Time 				time			Hora del moment en que s'ha fet l'extracció
+Division  			text			Divisió a la que pertany l'equip
+Position			number			Posició de l'equip a la divisió
+Team				text			Nom de l'equip
+GamesPlayed			number			Partits jugats
+Won					number			Partits guanyats
+Lost 				number			Partits perduts
+PointsAgaints		number			Punts anotats per l'equip
+PointsForth			number			Punts rebuts a l'equip
+DiffPoints			number			Diferencia de punts (punts anotats menys els punts rebuts)
+
+Respecte la periocitat en la que hem extret les dades ha sigut diaria, aixi doncs desdel dia 23 d'octubre s'ha realitzat una extracció diaria en la que podem veure reflexada els resultats de la jornada de la nit anterior. Per altra banda, vam trobar molt interessant durant una nit fer una extracció cada hora ja que durant una mateixa nit poden haver-hi molts partits i a més a més Estats Units és un pais que té 6 franjes horaries. Aquesta extracció amb una periocitat més alta la vam fer durant la nit del 26 al 27 d'octubre.
+
+6.-
+
+7.-
+
+8.- (DEIXO PER AQUI EL QUE SON LES 3 PRIMERES LLICENCIES QUE CREC QUE LA COSA VA PER AQUI)
+
+https://creativecommons.org/publicdomain/zero/1.0/deed.es --> basicament tens 0 drets sobre el projecte i es de domini public
+https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es_ES --> tens tots el drets sobre el projecte menys treure un benefici comercial amb aquest
+https://creativecommons.org/licenses/by-sa/4.0/deed.es --> tens tots els drets sobre el projecte incloent el seu benefici comercial
+
+(HO DEBATIM EN TRUCADA)
+
+9.- (PUBLICAR EL CODI-> SERIA INTERESANT POTSER COPIAR EL CODI I EXPLICAR-LO PER SOBRE EN EL DOCUMENT)
+
+10.- (PUBLICAR EL DATASET OBTINGUT A ZENODO -> PODRIAM FER UNA CAPTURA DEL CSV D'UN DIA I FICAR-HO AL DOCUMENT)
