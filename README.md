@@ -5,3 +5,8 @@ Repositori per posar el codi i tot el material necessari per la realització de 
 ## Membres del grup
 Oriol Medina Marcos
 Guiu Riera Riera
+
+## Descripció dels fitxers del repositori
+
+
+## URL Zenodo
