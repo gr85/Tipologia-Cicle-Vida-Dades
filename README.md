@@ -13,4 +13,4 @@ Repositori per posar el codi i tot el material necessari per la realització de 
   * **web_scrapping.py** codi de l'aplicació que realitza el scrapping i que dona com a resultat un fitxer .csv amb les dades extretes.
 
 ## URL Zenodo
-TO DO: url zenodo
+https://doi.org/10.5281/zenodo.5627357
